@@ -1,0 +1,53 @@
+        /* 共同設定 */
+        #wrap {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            /* border: 1px dashed #6b48bb; */
+            /* 內容水平置中 */
+            /* 下方留白 */
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* 內容與上下邊緣的間距加大 */
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        /* 頁首區 */
+        header a {
+            color: rgb(107, 16, 123);
+            text-decoration: none;
+        }
+
+        /* 選單區 */
+        nav {
+            background-color: #6b48bb;
+        }
+
+        nav a {
+            color: #e2f01e;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 20px;
+            border-right: 1px skyblue 
+            padding-right 20px;
+        }
+
+        img {
+            width: 400px;
+            height: 250px;
+            margin-top: 20px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: rgba(25, 30, 177, 0.484);
+        }
+
+        section iframe {
+            width: 960px;
+            height: 600px;
+        }
